@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MouthCameraActivity1"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="업로드할 사진을 선택해주세요"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="#000427"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_cam"
+            android:drawableStart="@drawable/cam"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="사진찍기"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btn_gallery"
+            android:drawableStart="@drawable/gallery"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="갤러리"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="확인"
+            android:textSize="15sp"
+            android:textColor="#000427"
+            android:gravity="center"
+            android:background="@color/white" />
+
+    </LinearLayout>
+</LinearLayout>

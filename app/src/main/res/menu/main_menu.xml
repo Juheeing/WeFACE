@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/eye"
+            android:icon="@drawable/eye"
+            android:title="눈 바꾸기"/>
+        <item android:id="@+id/nose"
+            android:icon="@drawable/nose"
+            android:title="코 바꾸기"/>
+        <item android:id="@+id/mouth"
+            android:icon="@drawable/mouth"
+            android:title="입 바꾸기"/>
+        <item android:id="@+id/brow"
+            android:icon="@drawable/brow"
+            android:title="눈썹 바꾸기"/>
+    </group>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/mypage"
+                    android:icon="@drawable/mypage"
+                    android:title="Mypage"/>
+                <item android:id="@+id/login"
+                    android:icon="@drawable/login"
+                    android:title="Log in"/>
+                <item android:id="@+id/logout"
+                    android:icon="@drawable/logout"
+                    android:title="Log out"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

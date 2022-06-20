@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable-v24/save.xml" value="0.174" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable-v24/share.xml" value="0.174" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/back.xml" value="0.301" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/et_shadow.xml" value="0.2235" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/gallery.xml" value="0.301" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/gradient.xml" value="0.217" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/ic_account_box.xml" value="0.117" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.174" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/ic_circle1.xml" value="0.21" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/ic_circle2.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/ic_circle3.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/ic_circle4.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/ic_lock.xml" value="0.117" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/plus.xml" value="0.174" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/round_btn.xml" value="0.2235" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/user.xml" value="0.301" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/drawable/users.xml" value="0.301" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/layout/activity_face_choice.xml" value="0.33" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/layout/activity_image.xml" value="0.3564102564102564" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/layout/activity_image2.xml" value="0.33164556962025316" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/layout/activity_join.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/layout/activity_loading.xml" value="0.3037974683544304" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/layout/activity_result.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/layout/item.xml" value="0.34748010610079577" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3185" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3185" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye/app/src/main/res/xml/file_path.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable-v24/button_bg.xml" value="0.251" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable-v24/button_bg2.xml" value="0.251" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable-v24/button_bg3.xml" value="0.251" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable-v24/save.xml" value="0.3255" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable-v24/share.xml" value="0.362" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/back.xml" value="0.3255" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/brow.xml" value="0.2625" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/button_bg.xml" value="0.3215" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/button_bg3.xml" value="0.251" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/call.xml" value="0.3255" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/cam.xml" value="0.16" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/circle.xml" value="0.352" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/edit_text_bg.xml" value="0.2865" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/eye.xml" value="0.262" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/gallery.xml" value="0.114" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/gradient.xml" value="0.3255" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/home.xml" value="0.3255" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/ic_circle1.xml" value="0.204" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/ic_circle2.xml" value="0.204" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/ic_circle3.xml" value="0.204" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/ic_circle4.xml" value="0.204" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/mouth.xml" value="0.2625" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/nose.xml" value="0.2625" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/plus.xml" value="0.3255" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/round_btn.xml" value="0.3255" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/share.xml" value="0.362" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/drawable/vie_bg.xml" value="0.3215" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/font/custom_font_family.xml" value="0.3848958333333333" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_brow_camera1.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_brow_camera2.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_brow_image1.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_brow_image2.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_brow_image3.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_camera.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_camera1.xml" value="0.30824372759856633" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_camera2.xml" value="0.30824372759856633" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_eye_camera2.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_eye_image.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_eye_image1.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_eye_image2.xml" value="0.33" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_eye_image3.xml" value="0.33" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_frame1.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_frame2.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_frame3.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_frame4.xml" value="0.33" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_frame5.xml" value="0.2546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_image.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_image2.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_join.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_loading.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_loading_brow.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_loading_eye.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_loading_mouth.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_loading_nose.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_loding_mouth.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_loding_test.xml" value="0.3390625" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_login.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_mouth_camera1.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_mouth_camera2.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_mouth_image1.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_mouth_image2.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_mouth_image3.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_mypage.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_mypage_image.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_nose_camera1.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_nose_camera2.xml" value="0.34010416666666665" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_nose_image1.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_nose_image2.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_nose_image3.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_popup.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_result.xml" value="0.33" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/activity_viewpager.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/content_main.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/frame_1.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/header.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/image.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/join_tab_fragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/listview.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/login_tab_fragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/recycler_item.xml" value="0.3546875" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/layout/signup_tab_fragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/Eye_test/app/src/main/res/menu/main_menu.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/back.xml" value="0.12" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/edge.xml" value="0.285" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/et_shadow.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/gradient.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/ic_circle1.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/ic_circle2.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/ic_circle3.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/ic_circle4.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/ic_icons8_box.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/mypage.xml" value="0.285" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/round_btn.xml" value="0.115" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/save.xml" value="0.12" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/user.xml" value="0.285" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/drawable/users.xml" value="0.285" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/font/donoun.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/layout/activity_content.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/layout/activity_join.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/layout/activity_mypage.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/layout/activity_title_pop_up.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/BIT/AndroidStudioProjects/test2/app/src/main/res/layout/listview.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
