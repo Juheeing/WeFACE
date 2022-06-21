@@ -1,6 +1,7 @@
 package com.example.Eye_test;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -25,11 +26,10 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ResultActivity extends AppCompatActivity{
-
+public class MouthResultActivity extends AppCompatActivity {
 
     ImageView iv_result;
-    Button btn_save, btn_back, image_next;
+    Button btn_save, btn_back, image_next, btn_before;
     Bitmap bitmap;
     File file;
     String Imageurl = "http://52.79.174.94:8000/change/image/result/result.jpg";
@@ -38,9 +38,10 @@ public class ResultActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result);
+        setContentView(R.layout.activity_mouth_result);
 
         iv_result = (ImageView) findViewById(R.id.iv_result);
+        btn_before = (Button) findViewById(R.id.btn_before);
         btn_save = (Button) findViewById(R.id.btn_save);
         btn_back = (Button) findViewById(R.id.btn_back);
         image_next = (Button) findViewById(R.id.image_next);
@@ -84,22 +85,31 @@ public class ResultActivity extends AppCompatActivity{
                     return;
                 }
                 saveImage(((BitmapDrawable)iv_result.getDrawable()).getBitmap(), sdf.format(new Date()));
-                Toast.makeText(ResultActivity.this, "갤러리에 저장되었습니다", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MouthResultActivity.this, "갤러리에 저장되었습니다", Toast.LENGTH_SHORT).show();
             }
         });
 
         btn_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ResultActivity.this, EyeImageActivity2.class);
+                Intent intent = new Intent(MouthResultActivity.this, MouthResultActivity.class);
                 startActivity(intent);
             }
         });
 
+        btn_before.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MouthResultActivity.this, BeforeMouthActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
         image_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ResultActivity.this, MainActivity.class);
+                Intent intent = new Intent(MouthResultActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
@@ -174,5 +184,4 @@ public class ResultActivity extends AppCompatActivity{
             }
         }
     }
-
 }

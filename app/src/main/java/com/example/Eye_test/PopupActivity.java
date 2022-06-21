@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class PopupActivity extends AppCompatActivity {
 
-    Button btn_eye, btn_nose, btn_mouth, btn_brow, btn_close;
+    Button btn_eye, btn_nose, btn_mouth,btn_close;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,6 @@ public class PopupActivity extends AppCompatActivity {
         btn_eye = findViewById(R.id.btn_eye);
         btn_nose = findViewById(R.id.btn_nose);
         btn_mouth = findViewById(R.id.btn_mouth);
-        btn_brow = findViewById(R.id.btn_brow);
         btn_close = findViewById(R.id.btn_close);
 
         btn_close.setOnClickListener(new View.OnClickListener() {
@@ -53,12 +52,5 @@ public class PopupActivity extends AppCompatActivity {
             }
         });
 
-        btn_brow.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(PopupActivity.this, BrowImageActivity1.class);
-                startActivity(intent);
-            }
-        });
     }
 }

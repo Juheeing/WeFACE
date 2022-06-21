@@ -87,7 +87,7 @@ public class Loading_Mouth extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 if (result.equals("{\"text\":\"1\"}")) {
-                    Intent intent = new Intent(Loading_Mouth.this, ResultActivity.class);
+                    Intent intent = new Intent(Loading_Mouth.this, MouthResultActivity.class);
                     startActivity(intent);
                     break;
                 }

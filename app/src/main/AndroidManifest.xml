@@ -8,6 +8,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <uses-feature android:name="android.hardware.location.gps" />
 
     <application
@@ -21,8 +22,15 @@
         android:usesCleartextTraffic="true"
         tools:replace="android:icon">
         <activity
-            android:name=".Loading_Brow"
+            android:name=".BeforeMouthActivity"
             android:exported="false" />
+        <activity
+            android:name=".MouthResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BeforeEyeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MyDialog" />
         <activity
             android:name=".Loading_Nose"
             android:exported="false" />
@@ -38,11 +46,11 @@
         <activity
             android:name=".NoseCameraActivity2"
             android:exported="false"
-            android:theme="@style/Theme.MyDialog"/>
+            android:theme="@style/Theme.MyDialog" />
         <activity
             android:name=".NoseCameraActivity1"
             android:exported="false"
-            android:theme="@style/Theme.MyDialog"/>
+            android:theme="@style/Theme.MyDialog" />
         <activity
             android:name=".Loading_Mouth"
             android:exported="false" />
@@ -89,7 +97,7 @@
             android:name=".Loading_Eye"
             android:exported="false" />
         <activity
-            android:name=".ResultActivity"
+            android:name=".EyeResultActivity"
             android:exported="false" />
         <activity
             android:name=".EyeImageActivity1"

@@ -87,7 +87,7 @@ public class Loading_Nose extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 if (result.equals("{\"text\":\"1\"}")) {
-                    Intent intent = new Intent(Loading_Nose.this, ResultActivity.class);
+                    Intent intent = new Intent(Loading_Nose.this, NoseResultActivity.class);
                     startActivity(intent);
                     break;
                 }

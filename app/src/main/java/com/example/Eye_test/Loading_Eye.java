@@ -87,7 +87,7 @@ public class Loading_Eye extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 if (result.equals("{\"text\":\"1\"}")) {
-                    Intent intent = new Intent(Loading_Eye.this, ResultActivity.class);
+                    Intent intent = new Intent(Loading_Eye.this, EyeResultActivity.class);
                     startActivity(intent);
                     break;
                 }
