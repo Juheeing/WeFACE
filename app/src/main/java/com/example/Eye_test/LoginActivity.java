@@ -26,37 +26,43 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
+//FragmentActivity는 하나의 액티비티 안에 여러개의 액티비티를 보여줌
 public class LoginActivity extends FragmentActivity {
-
-    TabLayout tabLayout;
-    ViewPager viewPager;
-    FloatingActionButton google;
 
     // 구글로그인 result 상수
     private static final int RC_SIGN_IN = 900;
+
     // 구글api클라이언트
     GoogleSignInClient googleSignInClient;
+
     // 파이어베이스 인증 객체 생성
     private FirebaseAuth firebaseAuth;
+
     public static Context context_login;
     FirebaseUser user;
     String name, email, uid;
     Uri photoUrl;
     boolean emailVerified;
+    TabLayout tabLayout;
+    ViewPager viewPager;
+    FloatingActionButton google;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        context_login = this;
+
         firebaseAuth = FirebaseAuth.getInstance();
 
+        // 앱에 필요한 사용자 데이터를 요청하도록 구글로그인 옵션을 설정한다.
+        // DEFAULT_SIGN_IN는 유저의 구글ID와 기본적인 프로필 정보를 요청하는데 사용된다.
         GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build();
 
-        context_login = this;
         googleSignInClient = GoogleSignIn.getClient(this, googleSignInOptions);
 
         tabLayout = (TabLayout) findViewById(R.id.tab_layout);
@@ -67,6 +73,7 @@ public class LoginActivity extends FragmentActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Signup"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
+        //구글 로그인
         google.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -75,6 +82,7 @@ public class LoginActivity extends FragmentActivity {
             }
         });
 
+        //화면 넘김 설정
         TabPagerAdapter pagerAdapter = new TabPagerAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(pagerAdapter);
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));

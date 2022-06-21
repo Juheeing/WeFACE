@@ -24,23 +24,6 @@
             android:name=".Loading_Brow"
             android:exported="false" />
         <activity
-            android:name=".BrowImageActivity3"
-            android:exported="false" />
-        <activity
-            android:name=".BrowImageActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".BrowImageActivity1"
-            android:exported="false" />
-        <activity
-            android:name=".BrowCameraActivity2"
-            android:exported="false"
-            android:theme="@style/Theme.MyDialog"/>
-        <activity
-            android:name=".BrowCameraActivity1"
-            android:exported="false"
-            android:theme="@style/Theme.MyDialog"/>
-        <activity
             android:name=".Loading_Nose"
             android:exported="false" />
         <activity

@@ -39,6 +39,7 @@ public class EyeCameraActivity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_eye_camera1);
 
+        //카메라 허용
         if (ContextCompat.checkSelfPermission(EyeCameraActivity1.this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(EyeCameraActivity1.this, new String[]{
                     Manifest.permission.CAMERA
@@ -50,6 +51,7 @@ public class EyeCameraActivity1 extends AppCompatActivity {
         btn_gallery = findViewById(R.id.btn_gallery);
         btn_close = findViewById(R.id.btn_close);
 
+        //확인 버튼을 누를시
         btn_close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,17 +59,20 @@ public class EyeCameraActivity1 extends AppCompatActivity {
             }
         });
 
+        //카메라 버튼을 누를시
         btn_cam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 if(takePictureIntent.resolveActivity(getPackageManager()) != null) {
+                    //인텐트를 수행할 수 있는 액티비티를 찾고 없으면 null값을 리턴
+
                     File photoFile = null;
-                    File tempDir = getCacheDir();
+                    File tempDir = getCacheDir();    //앱의 임시 캐쉬 파일을 저장할 수 있는 디렉토리의 File 객체를 리턴.
                     String imageFileName = "original";
 
                     try {
-                        File tempImage = File.createTempFile(imageFileName, ".jpg", tempDir);
+                        File tempImage = File.createTempFile(imageFileName, ".jpg", tempDir);    //임시파일 생성
                         path = tempImage.getAbsolutePath();
                         photoFile = tempImage;
 
@@ -85,6 +90,7 @@ public class EyeCameraActivity1 extends AppCompatActivity {
             }
         });
 
+        //갤러리 버튼을 누를시
         btn_gallery.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

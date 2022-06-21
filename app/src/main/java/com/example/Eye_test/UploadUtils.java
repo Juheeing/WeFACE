@@ -13,7 +13,9 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-public class FileUploadUtils {
+public class UploadUtils {    //서버에 보낼 데이터
+
+    //눈 사진 합성시켜주는 API로 전송
     public static void send_eye(File file){
         RequestBody requestBody = new MultipartBody.Builder()
                 .setType(MultipartBody.FORM)
@@ -37,6 +39,7 @@ public class FileUploadUtils {
         });
     }
 
+    //입 사진 합성시켜주는 API로 전송
     public static void send_mouth(File file){
         RequestBody requestBody = new MultipartBody.Builder()
                 .setType(MultipartBody.FORM)
@@ -60,6 +63,7 @@ public class FileUploadUtils {
         });
     }
 
+    //코 사진 합성시켜주는 API로 전송
     public static void send_nose(File file){
         RequestBody requestBody = new MultipartBody.Builder()
                 .setType(MultipartBody.FORM)
@@ -83,29 +87,7 @@ public class FileUploadUtils {
         });
     }
 
-    public static void send_brow(File file){
-        RequestBody requestBody = new MultipartBody.Builder()
-                .setType(MultipartBody.FORM)
-                .addFormDataPart("image", file.getName(), RequestBody.create(MultipartBody.FORM, file))
-                .build();
-        Request request = new Request.Builder()
-                .url("http://52.79.174.94:8000/change/eyebrows/")
-                .post(requestBody)
-                .build();
-
-        OkHttpClient client = new OkHttpClient();
-        client.newCall(request).enqueue(new Callback() {
-            @Override
-            public void onFailure(Call call, IOException e) {
-                e.printStackTrace();
-            }
-            @Override
-            public void onResponse(Call call, Response response) throws IOException {
-                Log.d("TEST : ", response.body().string());
-            }
-        });
-    }
-
+    //결과 사진과 사용자아이디 전송
     public static void send_image(File file, String string){
         RequestBody requestBody = new MultipartBody.Builder()
                 .setType(MultipartBody.FORM)
@@ -130,6 +112,7 @@ public class FileUploadUtils {
         });
     }
 
+    //회원가입 정보 전송
     public static void send_info(String username, String email, String password1, String password2) {
         RequestBody requestBody = new MultipartBody.Builder()
                 .setType(MultipartBody.FORM)

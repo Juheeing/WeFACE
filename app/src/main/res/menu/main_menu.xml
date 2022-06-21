@@ -10,9 +10,6 @@
         <item android:id="@+id/mouth"
             android:icon="@drawable/mouth"
             android:title="입 바꾸기"/>
-        <item android:id="@+id/brow"
-            android:icon="@drawable/brow"
-            android:title="눈썹 바꾸기"/>
     </group>
     <item android:title="Profile">
         <menu>
@@ -29,5 +26,4 @@
             </group>
         </menu>
     </item>
-
 </menu>

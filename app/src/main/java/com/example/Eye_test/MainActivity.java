@@ -127,12 +127,6 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     }
-                    case R.id.brow:
-                    {
-                        Intent intent = new Intent(MainActivity.this, BrowImageActivity1.class);
-                        startActivity(intent);
-                        break;
-                    }
                     case R.id.mypage:
                     {
                         Intent intent = new Intent(MainActivity.this, MypageActivity.class);

@@ -69,7 +69,7 @@ public class ResultActivity extends AppCompatActivity{
             Thread.join();
             iv_result.setImageBitmap(bitmap);
             SaveBitmapToFileCache(bitmap, getFilesDir() + "/" + "juhee.jpg");
-            FileUploadUtils.send_image(file, user.getInstance().getUsername());
+            UploadUtils.send_image(file, user.getInstance().getUsername());
 
         }catch (InterruptedException e){
 

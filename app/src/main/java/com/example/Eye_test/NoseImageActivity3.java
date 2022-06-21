@@ -30,8 +30,8 @@ public class NoseImageActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                FileUploadUtils.send_nose(((NoseCameraActivity1) NoseCameraActivity1.context_nose_camera1).file_1);
-                FileUploadUtils.send_nose(((NoseCameraActivity2) NoseCameraActivity2.context_nose_camera2).file_2);
+                UploadUtils.send_nose(((NoseCameraActivity1) NoseCameraActivity1.context_nose_camera1).file_1);
+                UploadUtils.send_nose(((NoseCameraActivity2) NoseCameraActivity2.context_nose_camera2).file_2);
                 Intent intent = new Intent(NoseImageActivity3.this, Loading_Nose.class);
                 startActivity(intent);
             }

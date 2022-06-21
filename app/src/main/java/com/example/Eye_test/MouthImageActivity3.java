@@ -30,8 +30,8 @@ public class MouthImageActivity3 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                FileUploadUtils.send_mouth(((MouthCameraActivity1) MouthCameraActivity1.context_mouth_camera1).file_1);
-                FileUploadUtils.send_mouth(((MouthCameraActivity2) MouthCameraActivity2.context_mouth_camera2).file_2);
+                UploadUtils.send_mouth(((MouthCameraActivity1) MouthCameraActivity1.context_mouth_camera1).file_1);
+                UploadUtils.send_mouth(((MouthCameraActivity2) MouthCameraActivity2.context_mouth_camera2).file_2);
                 Intent intent = new Intent(MouthImageActivity3.this, Loading_Mouth.class);
                 startActivity(intent);
             }

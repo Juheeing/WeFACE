@@ -22,7 +22,7 @@ public class LoginTabFragment extends Fragment{
     Button btn_login;
     String username, password, login_token;
     RetrofitClient retrofitClient;
-    LoginAPI loginAPI;
+    LoginRequest loginRequest;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -34,14 +34,14 @@ public class LoginTabFragment extends Fragment{
         btn_login = view.findViewById(R.id.btn_login);
 
         Button btn_login = view.findViewById(R.id.btn_login);
+
+        //로그인 버튼 클릭시
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Login();
             }
         });
-
         return view;
     }
 
@@ -52,13 +52,13 @@ public class LoginTabFragment extends Fragment{
         user.getInstance().setUsername(username);
 
         retrofitClient = RetrofitClient.getInstance();
-        loginAPI = RetrofitClient.getRetrofitInterface();
+        loginRequest = RetrofitClient.getRetrofitInterface();
 
-        loginAPI.getLoginResponse(username, password).enqueue(new Callback<LoginResponse>() {
+        loginRequest.getLoginResponse(username, password).enqueue(new Callback<LoginResponse>() {
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                 Log.d("Retrofit", "Data fetch SUCCESS");
-                System.out.println(response);
+                System.out.println(response);    //로그인 토큰 프린트
 
                 if (response.isSuccessful() && response.code() == 200) {
 
@@ -67,6 +67,7 @@ public class LoginTabFragment extends Fragment{
                     Intent intent = new Intent(getActivity(), MainActivity.class);
                     startActivity(intent);
                     Toast.makeText(getActivity(), user.getInstance().getUsername() + "님 환영합니다.", Toast.LENGTH_LONG).show();
+                    //Fragment에선 Activity.this가 아닌 getActivity사용
 
                 } else {
                     Toast.makeText(getActivity(), "아이디/비밀번호가 일치하지 않습니다.", Toast.LENGTH_SHORT).show();
@@ -81,7 +82,5 @@ public class LoginTabFragment extends Fragment{
                 Log.e("연결실패", "오류");
             }
         });
-
     }
-
 }

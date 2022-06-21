@@ -39,7 +39,5 @@ public class EyeImageActivity1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
-
 }

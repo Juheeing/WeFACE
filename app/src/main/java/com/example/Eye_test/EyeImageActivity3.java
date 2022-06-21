@@ -26,12 +26,13 @@ public class EyeImageActivity3 extends AppCompatActivity {
         iv_image1.setImageBitmap(((EyeCameraActivity1) EyeCameraActivity1.context_camera1).rotatedBitmap1);
         iv_image2.setImageBitmap(((EyeCameraActivity2) EyeCameraActivity2.context_camera2).rotatedBitmap2);
 
+        //합성하기 버튼을 누를시
         btn_start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                FileUploadUtils.send_eye(((EyeCameraActivity1) EyeCameraActivity1.context_camera1).file_1);
-                FileUploadUtils.send_eye(((EyeCameraActivity2) EyeCameraActivity2.context_camera2).file_2);
+                UploadUtils.send_eye(((EyeCameraActivity1) EyeCameraActivity1.context_camera1).file_1);
+                UploadUtils.send_eye(((EyeCameraActivity2) EyeCameraActivity2.context_camera2).file_2);
                 Intent intent = new Intent(EyeImageActivity3.this, Loading_Eye.class);
                 startActivity(intent);
             }

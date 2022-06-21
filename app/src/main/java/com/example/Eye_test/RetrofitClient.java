@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
     private  static RetrofitClient instance = null;
-    private static LoginAPI loginApi;
+    private static LoginRequest loginRequest;
 
     //서버주소
     private  static String baseUrl = "http://52.79.174.94:8000/";
@@ -27,7 +27,7 @@ public class RetrofitClient {
                 .client(client) //로그기능 추가
                 .build();
 
-        loginApi = retrofit.create(LoginAPI.class);
+        loginRequest = retrofit.create(LoginRequest.class);
 
     }
 
@@ -38,9 +38,9 @@ public class RetrofitClient {
         return instance;
     }
 
-    public static LoginAPI getRetrofitInterface() {
+    public static LoginRequest getRetrofitInterface() {
 
-        return loginApi;
+        return loginRequest;
     }
 
 }
