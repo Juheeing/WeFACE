@@ -23,12 +23,17 @@
         tools:replace="android:icon">
         <activity
             android:name=".BeforeMouthActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.MyDialog"/>
         <activity
             android:name=".MouthResultActivity"
             android:exported="false" />
         <activity
             android:name=".BeforeEyeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name=".BeforeNoseActivity"
             android:exported="false"
             android:theme="@style/Theme.MyDialog" />
         <activity
@@ -98,6 +103,9 @@
             android:exported="false" />
         <activity
             android:name=".EyeResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoseResultActivity"
             android:exported="false" />
         <activity
             android:name=".EyeImageActivity1"

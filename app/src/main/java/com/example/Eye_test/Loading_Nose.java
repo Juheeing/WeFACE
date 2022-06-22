@@ -50,7 +50,7 @@ public class Loading_Nose extends AppCompatActivity {
         wait.playAnimation();
         wait.loop(true);
 
-        new Loading_Nose.RestAPITask("http://52.79.174.94:8000/change/check/").execute();
+        new RestAPITask("http://52.79.174.94:8000/change/check/").execute();
     }
 
     public class RestAPITask extends AsyncTask {
@@ -83,6 +83,7 @@ public class Loading_Nose extends AppCompatActivity {
                     }
                     result = builder.toString();
                     Thread.sleep(3000);
+
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

@@ -50,7 +50,7 @@ public class Loading_Mouth extends AppCompatActivity {
         wait.playAnimation();
         wait.loop(true);
 
-        new Loading_Mouth.RestAPITask("http://52.79.174.94:8000/change/check/").execute();
+        new RestAPITask("http://52.79.174.94:8000/change/check/").execute();
     }
 
     public class RestAPITask extends AsyncTask {

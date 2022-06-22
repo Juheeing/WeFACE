@@ -8,7 +8,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitClient {
     private  static RetrofitClient instance = null;
     private static LoginRequest loginRequest;
-
     //서버주소
     private  static String baseUrl = "http://52.79.174.94:8000/";
 

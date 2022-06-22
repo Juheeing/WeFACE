@@ -85,7 +85,5 @@ public class MypageActivity extends AppCompatActivity {
             //요청큐에 요청 객체 생성
             requestQueue.add(jsonArrayRequest);
         }
-        }
-
-
+    }
 }
